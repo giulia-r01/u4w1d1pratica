@@ -10,12 +10,16 @@ public class Esercizio1 {
         String stringaDaInserire = "Nuova Parola";
 
         String[] risultato = inserisciInArray(arrayIniziale, stringaDaInserire);
-        System.out.println(risultato[0]);
-        System.out.println(risultato[1]);
-        System.out.println(risultato[2]);
-        System.out.println(risultato[3]);
-        System.out.println(risultato[4]);
-        System.out.println(risultato[5]);
+//        System.out.println(risultato[0]);
+//        System.out.println(risultato[1]);
+//        System.out.println(risultato[2]);
+//        System.out.println(risultato[3]);
+//        System.out.println(risultato[4]);
+//        System.out.println(risultato[5]);
+        // Oppure:
+        for (int i = 0; i < risultato.length; i++) {
+            System.out.println(risultato[i]);
+        }
 
     }
 
