@@ -5,11 +5,11 @@ public class Esercizio2 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Inserisci la prima stringa");
-        String a1 = scanner.next();
+        String a1 = scanner.nextLine();
         System.out.println("Inserisci la seconda stringa");
-        String a2 = scanner.next();
+        String a2 = scanner.nextLine();
         System.out.println("Inserisci la terza stringa");
-        String a3 = scanner.next();
+        String a3 = scanner.nextLine();
 
         String daStampare = concatenaStringhe(a1, a2, a3);
         System.out.println(daStampare);
