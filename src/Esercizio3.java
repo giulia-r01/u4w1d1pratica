@@ -26,7 +26,7 @@ public class Esercizio3 {
         System.out.println("Inserisci il valore del terzo lato");
         double c = scanner.nextDouble();
 
-        double areaDiErone = perimetroTriangolo(a, b, c);
+        double areaDiErone = areaTriangolo(a, b, c);
         System.out.println("L'area del triangolo è: " + areaDiErone);
 
     }
@@ -44,7 +44,7 @@ public class Esercizio3 {
         }
     }
 
-    public static double perimetroTriangolo(double a, double b, double c) {
+    public static double areaTriangolo(double a, double b, double c) {
         double semiperimetro = (a + b + c) / 2.0;
         return Math.sqrt(semiperimetro * (semiperimetro - a) * (semiperimetro - b) * (semiperimetro - c));
     }
