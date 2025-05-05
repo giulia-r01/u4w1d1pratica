@@ -32,21 +32,20 @@ public class Esercizio3 {
     }
 
 
-
-    public static double perimetroRettangolo(double l1, double l2){
+    public static double perimetroRettangolo(double l1, double l2) {
         return 2 * (l1 + l2);
     }
 
-    public static String pariDispari(int n1){
-        if(n1%2 == 0){
+    public static String pariDispari(int n1) {
+        if (n1 % 2 == 0) {
             return n1 + (" è pari");
-        }else{
+        } else {
             return n1 + (" è dispari");
         }
     }
 
-    public static double perimetroTriangolo(double a, double b, double c){
-        double semiperimetro = (a + b + c)/2.0;
+    public static double perimetroTriangolo(double a, double b, double c) {
+        double semiperimetro = (a + b + c) / 2.0;
         return Math.sqrt(semiperimetro * (semiperimetro - a) * (semiperimetro - b) * (semiperimetro - c));
     }
 }
